@@ -1,0 +1,5 @@
+mvn compile
+
+mvn assembly:assembly -DdescriptorId=jar-with-dependencies
+mvn exec:java -Dexec.mainClass="com.mycompany.app.App"
+
